@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "AskMeACountryIntent"
+    },
+    {
+      "intent": "AnswerCapitalIntent",
+      "slots":[
+        {
+          "name": "Capital",
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
